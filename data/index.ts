@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Passionate for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "I love to create unique and modern websites",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -71,36 +71,52 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Brainwave",
+    des: " UI/UX website developed using React.js and Tailwind CSS, showcasing the latest in modern design principles.",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
+    link: "https://mazensamehr.github.io/Brainwave/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "ITI - Game Store",
+    des: "A game store website built with Angular, TypeScript featuring a modern design and interactive elements.",
+    img: "/p3.png",
+    iconLists: ["/Angular.svg", "/BS.svg", "/ts.svg", "/node.svg", "/MongoDB.svg"],
+    link: "https://iti-graduation-project-iota.vercel.app/games",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Iphone 15 Pro Clone",
+    des: "Apple's iPhone 15 Pro website, built using React.js and TailwindCSS. It aims to recreate the sleek and modern design of Apple's official site, showcasing the capabilities of React for building dynamic web applications and TailwindCSS for rapid UI development.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://mazensamehr.github.io/iPhone/",
+  },
+  {
+    id: 1,
+    title: "Gemini Clone",
+    des: "A modern AI-powered chatbot built using React.js and the Gemini API, offering interactive and intelligent conversations.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/Vite.js.svg", "/js.svg"],
+    link: "https://github.com/MazenSamehR/Gemini_Clone",
+  },
+  {
+    id: 5,
+    title: "Recipyy",
+    des: "Website for planning and creating recipes, made for the HCI course. Built with Angular and NodeJS.",
+    img: "/p5.png",
+    iconLists: ["/Angular.svg", "/BS.svg", "/ts.svg", "/node.svg", "/MongoDB.svg"],
+    link: "https://github.com/MazenSamehR/Recipyy-backend?tab=readme-ov-file",
+  },
+  {
+    id: 6,
+    title: "ChatSphere",
+    des: "A modern chat application built with React.js and Socket.io, featuring real-time messaging and user authentication.",
+    img: "/p6.png",
+    iconLists: ["/re.svg", "/BS.svg", "/js.svg", "/node.svg", "/MongoDB.svg"],
+    link: "https://github.com/BishoySedra/ChatSphere_Backend?tab=readme-ov-file",
   },
 ];
 
@@ -173,29 +189,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "GameBall Internship",
+    desc: "Worked on a team to develop a social media web app, focusing on user experience and performance optimization.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "ITI - MEAN Stack Internship",
+    desc: "Contributed to the development of a full-stack web application using the MEAN stack, enhancing my skills in Angular and Node.js.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "External Affairs Committee Head",
+    desc: "Led a team to organize events and manage external communications, enhancing my leadership and project management skills.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Flutter Summer Training",
+    desc: "Completed a comprehensive training program in Flutter, focusing on mobile app development and cross-platform solutions.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +221,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/MazenSamehR",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/mazen-sameh/",
   },
 ];
