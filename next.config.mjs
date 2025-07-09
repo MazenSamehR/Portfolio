@@ -3,9 +3,6 @@ import { PHASE_EXPORT } from "next/constants";
 
 /** @type {import('next').NextConfig} */
 const baseConfig = {
-  images: {
-    domains: ["your-image-domains.com"], // Add any domains if needed
-  },
   reactStrictMode: true,
 };
 
