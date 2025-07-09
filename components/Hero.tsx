@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Web Developer | Frontend Engineer 
+            Web Developer | Frontend Engineer
           </p>
 
           <TextGenerateEffect
@@ -44,13 +44,26 @@ const Hero = () => {
             Hi, I&apos;m Mazen, a passionate web developer living in Egypt.
           </p>
 
-          <a href="#about">
-            <MagicButton
+            <div className="flex flex-row gap-4">
+            <a href="#about">
+              <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
-            />
-          </a>
+              />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1X-fwBtVw57A2KOf6IQfPJs04y6L0Vezt/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MagicButton
+              title="My CV"
+              icon={<FaLocationArrow />}
+              position="right"
+              />
+            </a>
+            </div>
         </div>
       </div>
     </div>
